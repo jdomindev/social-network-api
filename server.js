@@ -1,5 +1,7 @@
 const express = require('express');
 const db = require('./config/connection');
+const routes = require('./routes');
+
 // Require model
 // const { Item } = require('./models');
 
@@ -8,6 +10,8 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(routes);
+
 
 // app.get('/all-items', (req, res) => {
 //   // Using model in route to find all documents that are instances of that model

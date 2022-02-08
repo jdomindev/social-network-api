@@ -1,19 +1,21 @@
 const router = require('express').Router();
 const {
-    // controller routes go here
     getUsers,
+    createUser,
+    getOneUser,
+    updateUser,
+    deleteUser
+
 } = require('../../controllers/userController.js');
 
 // /api/users
-router.route('/').get(getUsers).post();
+router.route('/').get(getUsers).post(createUser);
 
 // /api/users/:userId
 router
   .route('/:userId')
-  .get()
-  .put()
-  .delete();
+  .get(getOneUser)
+  .put(updateUser)
+  .delete(deleteUser);
 
 module.exports = router;
-
-// fill in routes from controller into their respective spots
