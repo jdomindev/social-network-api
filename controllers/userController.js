@@ -22,6 +22,22 @@ module.exports = {
         return res.status(500).json(err);
       });
   },
+  // async getOneUser (req, res) {
+  //   try {
+  //     const user = await User.findOne({ _id: req.params.userId })
+  //       .populate('thoughts')
+  //       .populate('friends')
+  //     if (!user) {
+  //       console.error({ message: err });
+  //       return res.status(404).json(err);
+  //     }
+  //     await res.json(users)
+  //   } 
+  //   catch (error) {
+  //     return res.status(500).json(error);
+  //   }
+  // }
+
   // Create a user
   createUser(req, res) {
     User.create(req.body)
@@ -70,7 +86,7 @@ module.exports = {
       )
       .catch((err) => res.status(500).json(err));
   },
-  // Delete a reaction
+  // Delete a friend
   deleteFriend(req, res) {
     User.findOneAndUpdate(
       { _id: req.params.userId },

@@ -2,7 +2,8 @@
 ## Description
 - The objective of this application was to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. 
 - The tools used to accomplish this were Express.js for routing, MongoDB database, and the Mongoose ODM.
-- This project gave me a better grasp of how to handle relationships using the Mongoose ODM and express servers, as well as helping me to understand how Mongoose works with collections and referencing documents using schema and models.
+- This project gave me a better grasp of how to use the Mongoose ODM and gave me more practice with back-end server routing.
+- It also helped me to understand how Mongoose works with collections and how it makes relationships between documents using schemas and models.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -14,11 +15,8 @@
 - N/A
 ## Usage
 - Github Repo: https://github.com/jdomindev/social-network-api
-- Screenshots:
-    ![(./images/tech-blog-home.png)
-    ![](./images/tech-blog-login.png)
-    ![](./images/tech-blog-dashboard.png)
-    ![](./images/tech-blog-post.png)
+- Video :
+    - [Demo-Video](https://drive.google.com/file/d/1qIxqCMGJEvfYF1Aosw0Vmjueum9n1mb5/view?usp=sharing)
 ## Credits
 - N/A
 ## License
