@@ -1,8 +1,8 @@
 # Social Network API
 ## Description
-- MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. Over the last part of this course, you’ll use several of the technologies that social networking platforms use in their full-stack applications. Because the foundation of these applications is data, it’s important that you understand how to build and structure the API first.
-
-Your homework is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM.
+- The objective of this application was to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. 
+- The tools used to accomplish this were Express.js for routing, MongoDB database, and the Mongoose ODM.
+- This project gave me a better grasp of how to handle relationships using the Mongoose ODM and express servers, as well as helping me to understand how Mongoose works with collections and referencing documents using schema and models.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
