@@ -13,7 +13,7 @@ connection.once('open', async () => {
 
   const reactions = [{reactionBody: 'This is a test reaction', username: 'test'}, {reactionBody: 'This is a test reaction', username: 'test2'}];
   const thoughts = [{thoughtText: 'This is a test thought', username: 'test', reactions: reactions}];
-  const users = [{username: 'test', email: 'test@test.com', thoughts: thoughts}, {username: 'test2', email: 'test2@test.com'}, {username: 'test3', email: 'test3@test.com'}];
+  const users = [{username: 'test', email: 'test@test.com'}, {username: 'test2', email: 'test2@test.com'}, {username: 'test3', email: 'test3@test.com'}];
   
   
 
