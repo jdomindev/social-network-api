@@ -17,6 +17,18 @@
 - Github Repo: https://github.com/jdomindev/social-network-api
 - Video :
     - [Demo-Video](https://drive.google.com/file/d/1qIxqCMGJEvfYF1Aosw0Vmjueum9n1mb5/view?usp=sharing)
+- Demo Images:
+    - ![find-all-users](/assets/images/find-all-users.png)
+    - ![create-user](/assets/images/create-user.png)
+    - ![update-user](/assets/images/update-user.png)
+    - ![delete-user](/assets/images/delete-user.png)
+    - ![all-users](/assets/images/all-users.png)
+    - ![thought-by-id](/assets/images/thought-by-id.png)
+    - ![created-thought](/assets/images/created-thought.png)
+    - ![all-thoughts](/assets/images/all-thoughts.png)
+    - ![updated-thought](/assets/images/updated-thought.png)
+    - ![add-friend](/assets/images/add-friend.png)
+    - ![add-reaction](/assets/images/add-reaction.png)
 ## Credits
 - N/A
 ## License
